@@ -14,6 +14,21 @@ body {
   width: 0px;
 }
 
+.nav{
+  font-size: 22px;
+}
+
+.nav:hover{
+  color: black;
+  opacity: 0.8;
+  font-size: 26px;
+  transition: 0.2s;
+}
+
+.nav:focus{
+  border-bottom: 3px solid red;
+}
+
 .right-arrow,
 .left-arrow {
   cursor: pointer;
@@ -56,7 +71,7 @@ body {
 .hero-banner-img {
   position: absolute;
   right: 80px;
-  top: 40px;
+  top: 80px;
   width: 600px;
   height: 800px;
   margin-top: -330px;
