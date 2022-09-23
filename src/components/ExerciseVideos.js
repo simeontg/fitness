@@ -27,6 +27,14 @@ const ExerciseVideos = ({exerciseVideos, name }) => {
               target='_blank'
               rel='noreferrer'>
                 <img src={item.video.thumbnails[0].url} alt={item.video.title}/>
+                <Box>
+                    <Typography variant='h5' color='#000'>
+                        {item.video.title}
+                    </Typography>
+                    <Typography fontSize='12px' color='#000'>
+                       From: {item.video.channelName}
+                    </Typography>
+                </Box>
               </a>
             ))}
         </Stack>
